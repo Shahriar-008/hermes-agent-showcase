@@ -77,7 +77,7 @@ Built and iterated entirely through Hermes Agent + Claude Code delegation:
 |---|---|
 | **Focus** | AI Agents, Chatbots, Micro SaaS |
 | **Founder** | Shahriar Hussain |
-| **Location** | Narayanganj, Bangladesh |
+| **Location** | Dhaka, Bangladesh |
 | **X/Twitter** | [@ShahJoy23](https://x.com/ShahJoy23) |
 
 Tech It Easy is the umbrella brand under which all projects operate. The philosophy:

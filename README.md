@@ -72,7 +72,7 @@ Hermes Agent is an open-source AI agent framework by [Nous Research](https://git
 
 ## Who Built This
 
-**Shahriar Hussain** — Backend/DevOps engineer from Narayanganj, Bangladesh. Founder of [Tech It Easy](https://github.com/Shahriar-008) (AI Agents, Chatbots, Micro SaaS).
+**Shahriar Hussain** — Backend/DevOps engineer from Dhaka, Bangladesh.
 
 - GitHub: [@Shahriar-008](https://github.com/Shahriar-008)
 - X/Twitter: [@Shahriarhj](https://x.com/Shahriarhj)
