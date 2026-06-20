@@ -1,6 +1,6 @@
 # Projects Built & Deployed
 
-> **Three projects built through Hermes Agent — a Python CLI habit tracker (open-source ready), a Tailwind CSS web agency site on Cloudflare Workers, and the Tech It Easy brand (AI Agents, Chatbots, Micro SaaS).**
+> **Two projects built through Hermes Agent — a Python CLI habit tracker (published on PyPI) and a Tailwind CSS web agency site on Cloudflare Workers — plus the PolyMarket Trend data pipeline powering a live Telegram channel.**
 
 ---
 
@@ -71,24 +71,7 @@ Built and iterated entirely through Hermes Agent + Claude Code delegation:
 
 ---
 
-## 3. Tech It Easy — Brand & Business
-
-| Detail | Value |
-|---|---|
-| **Focus** | AI Agents, Chatbots, Micro SaaS |
-| **Founder** | Shahriar Hussain |
-| **Location** | Dhaka, Bangladesh |
-| **X/Twitter** | [@ShahJoy23](https://x.com/ShahJoy23) |
-
-Tech It Easy is the umbrella brand under which all projects operate. The philosophy:
-
-> *Build small, ship fast, automate everything.*
-
-The Hermes Agent setup itself is the flagship demonstration — it proves the capability to build, deploy, and automate at production scale from a single VPS.
-
 ---
-
-## Project Comparison
 
 | | habitrack | Bettrix | PolyMarket Trend |
 |---|---|---|---|

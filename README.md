@@ -36,7 +36,7 @@ Hermes Agent is an open-source AI agent framework by [Nous Research](https://git
 | [07-market-intelligence.md](docs/07-market-intelligence.md) | PolyMarket Trend channel automation |
 | [08-self-monitoring.md](docs/08-self-monitoring.md) | Watchdog, audit, guardrail evolution |
 | [09-backup-resilience.md](docs/09-backup-resilience.md) | GitHub autobackup, gateway resilience |
-| [10-projects.md](docs/10-projects.md) | habitrack, Bettrix, Tech It Easy |
+| [10-projects.md](docs/10-projects.md) | habitrack, Bettrix, PolyMarket Trend |
 | [11-skills-ecosystem.md](docs/11-skills-ecosystem.md) | 71 skills across 18 categories |
 
 ---
