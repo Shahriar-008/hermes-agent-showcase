@@ -66,7 +66,7 @@ Hermes Agent is an open-source AI agent framework by [Nous Research](https://git
 |---|---|---|
 | 🏢 **Bettrix** | [bettrix.shahriar-hj2022.workers.dev](https://bettrix.shahriar-hj2022.workers.dev/) | Web agency site (Cloudflare Workers) |
 | 📊 **PolyMarket Trend** | [t.me/polymartrend](https://t.me/polymartrend) | Automated market intelligence channel |
-| 🏷️ **habitrack** | PyPI-ready (pending token) | CLI habit tracker (Python, zero-deps) |
+| 🏷️ **habitrack** | Published on PyPI | CLI habit tracker (Python, zero-deps) |
 
 ---
 

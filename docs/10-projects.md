@@ -16,8 +16,7 @@
 | **Tests** | 60 pytest tests (all passing) |
 | **Dependencies** | **Zero external deps** |
 | **Build** | `dist/` ready (wheel + sdist) |
-| **Status** | Built, tested, open-source ready |
-| **Blocking** | `PYPI_TOKEN` empty — not yet published to PyPI |
+| **Status** | Published on PyPI — `pip install habitrack` |
 
 ### Features
 
@@ -31,9 +30,9 @@
 
 The daily Todo cron jobs (morning check-in, afternoon reminder, evening wrap-up) query habitrack for current habit status and suggest tasks based on what's pending.
 
-### Next Step
+### Published
 
-Publish to PyPI once `PYPI_TOKEN` is configured. The package is fully ready — tests pass, `dist/` is built, README is written.
+Available on PyPI: `pip install habitrack`
 
 ---
 
