@@ -135,3 +135,4 @@ Estimated recovery time: **15-20 minutes** for a full restore.
 3. **systemd --user with linger is critical.** Without `loginctl enable-linger`, services die on SSH logout.
 4. **Backup verification matters.** The autobackup cron confirms the push succeeded. A silent backup failure is worse than no backup (false sense of security).
 5. **`.env` must stay out of backups.** Secrets in version control are a liability. The backup captures structure; secrets are restored separately.
+6. **The quick-snapshot format was adopted after a single full-ZIP run proved too heavy.** At ~74 MB, the ZIP backup was slow to push, risked GitHub's file size limits, and wasted bandwidth. Switching to `hermes backup --quick` produced a compact directory-tree snapshot that is faster, smaller, and more practical for daily automated backups. The lesson: test your backup strategy with real data before automating it.

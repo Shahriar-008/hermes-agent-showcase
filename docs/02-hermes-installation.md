@@ -119,3 +119,10 @@ systemctl --user restart hermes-gateway hermes-gateway-group-chat hermes-gateway
 3. **systemd --user services** — Runs as the user, survives SSH logout, auto-restarts.
 4. **Skills as living documentation** — Every solution becomes a reusable skill. The agent improves over time.
 5. **Context compression at 50%** — Keeps sessions within token limits without losing critical context.
+
+---
+
+## Lessons Learned
+
+1. **ZIP backups are too heavy for GitHub.** The initial backup format produced ~74 MB archives — too large, slow to push, and risked hitting GitHub's file size limits. Switching to `hermes backup --quick` (compact snapshot tree format) solved this completely.
+2. **Token hygiene is critical.** During initial Hermes setup, GitHub PATs were pasted into `.env`, then immediately revoked after the gateway services started. Pasting a token and leaving it live is dangerous — the revoke-immediately pattern prevents credential drift.

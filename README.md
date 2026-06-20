@@ -27,6 +27,7 @@ Hermes Agent is an open-source AI agent framework by [Nous Research](https://git
 
 | File | What It Covers |
 |---|---|
+| [00-architecture-overview.md](docs/00-architecture-overview.md) | Full system map, data flows, and key metrics at a glance |
 | [01-infrastructure.md](docs/01-infrastructure.md) | VPS specs, Docker/Coolify/Traefik, VPN, firewall |
 | [02-hermes-installation.md](docs/02-hermes-installation.md) | Install path, config, skills dir, gateway services |
 | [03-profile-architecture.md](docs/03-profile-architecture.md) | 3-profile design with full isolation matrix |
@@ -38,6 +39,7 @@ Hermes Agent is an open-source AI agent framework by [Nous Research](https://git
 | [09-backup-resilience.md](docs/09-backup-resilience.md) | GitHub autobackup, gateway resilience |
 | [10-projects.md](docs/10-projects.md) | habitrack, Bettrix, PolyMarket Trend |
 | [11-skills-ecosystem.md](docs/11-skills-ecosystem.md) | 71 skills across 18 categories |
+| [CHANGELOG.md](CHANGELOG.md) | Version history and what was added |
 
 ---
 

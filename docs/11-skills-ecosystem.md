@@ -191,3 +191,10 @@ Skills are created when a complex task succeeds (5+ tool calls), when errors are
 > *Every bug fixed twice is a bug fixed once. Every problem solved once becomes a skill that solves it forever.*
 
 Skills turn hard-won debugging sessions into reusable knowledge. The next time the same class of problem appears, the skill provides the exact commands, pitfalls, and verification steps — no rediscovery needed.
+
+---
+
+## Lessons Learned
+
+1. **Skills are the long-term memory of the agent's capabilities, not just shortcuts.** Every skill was created because a real problem was solved — a complex task succeeded, an error was overcome, or a user-corrected approach worked. Skills encode the exact commands, pitfalls, and verification steps so the next time the same class of problem appears, there's no rediscovery. They turn hard-won debugging sessions into reusable knowledge.
+2. **The skill curator system prevents bitrot.** Skills that aren't used are marked idle, then stale, then archived — but never deleted. Pinned skills (like `delegation-discipline` and `polytrend-automation`) are protected from automatic lifecycle transitions because they're production-critical. The ecosystem stays healthy without manual maintenance.

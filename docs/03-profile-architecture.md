@@ -96,3 +96,4 @@ Each profile mirrors the root `~/.hermes/` structure:
 2. **`.env` is per-profile.** A profile's `.env` does not inherit from the root `.env`. API keys must be copied explicitly.
 3. **Memory isolation requires explicit config.** Without setting `mnemosyne.data_dir` per profile, profiles silently share the default Mnemosyne database.
 4. **Cross-profile cron delivery is a pitfall.** Jobs on the root scheduler deliver via the root bot regardless of the `profile` field. For market-channel delivery via @polymarkettrend_bot, the jobs MUST live on the market-channel profile's own scheduler.
+5. **Group-chat has 26 toolsets disabled for a reason.** The group bot is purely for social interaction with Cutie. Work knowledge (terminal access, file tools, web search, delegation, cron jobs) must never leak into social conversations. The group-chat profile is locked down to prevent any accidental work-mode leakage — the bot can only chat, nothing else.

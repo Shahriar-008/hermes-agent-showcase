@@ -95,3 +95,10 @@ All three projects share the same development pattern:
 5. **Automate** → Cron jobs handle ongoing maintenance/delivery
 
 This is the orchestrator pattern in action — Hermes never becomes the bottleneck because work is delegated.
+
+---
+
+## Lessons Learned
+
+1. **habitrack is PyPI-ready but not yet published — PYPI_TOKEN is empty.** The package builds cleanly (wheel + sdist in `dist/`), passes all 60 tests with zero dependencies, and has dual entry points (`habitrack` / `habit`). The only thing stopping publication is a PyPI token. When Shahriar is ready, it's a 2-command deploy: `python -m build` then `python -m twine upload dist/*`.
+2. **Bettrix went through an 8-fix Claude Code session in one delegation.** A single structured prompt file was written, piped to Claude Code via background terminal with tee logging, and all 8 fixes (pricing, WhatsApp button, testimonials, portfolio grid, FAQ content, branding, favicon, responsive polish) were applied in one run. One prompt, one delegation, 8 changes verified post-execution. This is the power of the orchestrator pattern.
